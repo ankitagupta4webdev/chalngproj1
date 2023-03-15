@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.head h2{
+    margin: 20px;
+    padding: 0px;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para p{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#home::before{
+    
+    content: "";
+    position: absolute;
+    background: url('/img/bg-header-desktop.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 43%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+}
+.btn1{
+    padding: 15px 20px;
+    border: 2px solid rgba(115, 115, 114, 0.96);
+    background-color: rgb(28, 138, 0);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 15px 20px;
+    border: 2px solid rgba(115, 115, 114, 0.96);
+    background-color: rgb(26, 85, 248);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+}
+.content h3{
+    margin: 15px;
+    padding: 0;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h5{
+    margin: 0;
+    padding: 30px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desktop img{
+    display: flex;
+    width: 100;
+    margin-left:-74px;
+    padding: 69px;
+    
+
+
+}
+.mcontent h4{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+.mcontent h6{
+   display: flex;
+    justify-content: left;
+    align-items: center;
+   
+
+}
+
+
+
+
+
+ 
